@@ -6,35 +6,40 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    line-height: 1.7; /* Improved line height for readability */
+    background-color: #f9f9f9; /* Softer background color */
+    color: #444; /* Darker text for better contrast */
 }
 
 .container {
-    width: 80%;
+    width: 90%; /* Wider container */
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Maximum width increased for large screens */
+    padding: 40px; /* More padding for breathing space */
+    background-color: #ffffff; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    border-radius: 8px; /* Rounded corners */
 }
 
 header {
     text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #0073e6; /* Color accent for header underline */
+    margin-bottom: 20px; /* Space below header */
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 3em; /* Larger title font */
+    margin-bottom: 5px;
+    color: #0073e6; /* Main title color */
+    font-weight: bold; 
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.3em; /* Slightly larger subtitle */
     margin: 5px 0;
+    color: #666; /* Lighter subtitle color */
 }
 
 main {
@@ -42,25 +47,39 @@ main {
 }
 
 h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+    font-size: 2.2em; /* Larger section headings */
+    margin-bottom: 15px;
+    color: #333; /* Headings in dark gray */
+    border-bottom: 2px solid #0073e6; /* Underline effect for headings */
+    padding-bottom: 8px; /* Padding for visual separation */
 }
 
 ul {
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* More space below lists */
 }
 
 ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+    margin-bottom: 15px; /* More space between list items */
+    font-size: 1.2em; /* Slightly larger font for list items */
 }
 
 a {
     text-decoration: none;
-    color: #0073e6;
+    color: #0073e6; /* Link color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 a:hover {
     text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; 
+    border-top: 1px solid #ddd; /* Subtle top border for separation */
+    margin-top: 40px; /* Space above footer */
+    font-size: 1em; /* Smaller font for footer */
+    color: #777; /* Lighter text for footer */
 }
