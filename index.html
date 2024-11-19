@@ -186,19 +186,18 @@ body {font-family: "Roboto", sans-serif; margin: 0; font-size: 18px; color:#4848
 }
 
 .custom-bullets li {
-    position: relative; /* Position relative for bullet placement */
+    position: relative; /* Position relative for custom bullet placement */
     margin-left: 2em;  /* Space for the custom bullet */
-    padding-left: 0.5em; /* Optional adjustment for text alignment */
 }
 
 .custom-bullets li::before {
     content: ''; /* Inserts a custom element */
     position: absolute;
-    left: 0;
-    top: 0.2em; /* Adjust to align the image vertically with text */
-    width: 1.3em; /* Set custom bullet width */
-    height: 1.3em; /* Set custom bullet height */
-    background-image: url('images/hat.png'); /* Path to your image */
+    left: -1.5em; /* Moves the bullet further left */
+    top: 0.2em; /* Aligns the bullet vertically with text */
+    width: 1em; /* Sets bullet width */
+    height: 1em; /* Sets bullet height */
+    background-image: url('images/hat.png'); /* Path to the bullet image */
     background-size: contain; /* Ensures the image scales properly */
     background-repeat: no-repeat; /* Avoids tiling */
 }
