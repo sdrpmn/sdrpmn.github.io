@@ -180,6 +180,15 @@ body {font-family: "Roboto", sans-serif; margin: 0; font-size: 18px; color:#4848
   }
 }
 
+	.custom-bullets {
+    list-style-image: url('images/hat.png'); /* Path to your image */
+    padding-left: 1.8em; /* Space to accommodate the image */
+}
+
+.custom-bullets li {
+    margin-bottom: 0.5em; /* Optional: spacing between list items */
+}
+
 
 /* Keine unterstrichenen Links */
     a {color: #008080; text-decoration: none; }
@@ -240,12 +249,11 @@ Douglasstraße 24 <br>
   <div class="main">
 
   <h2>Ausbildung & beruflicher Werdegang</h2>
-  <ul>
-    <img src="images/hat.png" alt="Hat"
-        style="width: 1.8em; margin-inline-start: 0em"></a> <li>10/2011 Promotion (Dr. phil), Universität Münster</em></a></li>
-    <li>04/2009 Diplom, Volkswirtschaftslehre mit dem Schwerpunkt Sozialpolitik an der Universität zu Köln </em></li>
-    <li>07/2005 Magister, Philosophie, Wirtschaftspolitik und Soziologie an der Universität Münster</em></li>
-  </ul>
+<ul class="custom-bullets">
+    <li>10/2011 Promotion (Dr. phil), Universität Münster</li>
+    <li>04/2009 Diplom, Volkswirtschaftslehre mit dem Schwerpunkt Sozialpolitik an der Universität zu Köln</li>
+    <li>07/2005 Magister, Philosophie, Wirtschaftspolitik und Soziologie an der Universität Münster</li>
+</ul>
 
 	  <ul>
     	<li>seit 10/2024: Mitarbeiter bei ARRTI am KIT</li>
